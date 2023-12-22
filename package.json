@@ -1,0 +1,19 @@
+{
+  "name": "shopify-liquid-types",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "update-docs": "theme-docs download docs"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@shopify/theme-check-common": "^1.22.0",
+    "@shopify/theme-check-docs-updater": "^1.22.0",
+    "prettier": "^3.1.1"
+  }
+}
