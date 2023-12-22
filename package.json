@@ -6,6 +6,7 @@
     "bun-types": "latest"
   },
   "scripts": {
+    "build": "bun run src/build.ts",
     "update-docs": "theme-docs download docs"
   },
   "peerDependencies": {
