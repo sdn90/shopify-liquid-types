@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "bun run src/build.ts",
+    "watch": "bun run --watch src/build.ts",
     "update-docs": "theme-docs download docs"
   },
   "peerDependencies": {
