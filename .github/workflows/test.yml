@@ -2,7 +2,7 @@ name: Test
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
 
 jobs:
@@ -13,4 +13,5 @@ jobs:
       - uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
+      - run: bun install
       - run: bun test
