@@ -2,7 +2,7 @@ import { expect, test } from "bun:test";
 import { mkdtemp } from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
-import { shopifyDocsToTypescript } from "./build";
+import { shopifyDocsToTypescript } from "./generate-types";
 
 test(
   "should build a valid ts file",
